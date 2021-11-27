@@ -1,3 +1,3 @@
-## 0.0.1
+## [1.0.0] - 27/11/2021.
 
-* TODO: Describe initial release.
+Create Diamond Bottom Bar Package
