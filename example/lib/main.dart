@@ -25,6 +25,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Diamond Bottom Bar',
       theme: ThemeData(
         primarySwatch: Colors.blue,

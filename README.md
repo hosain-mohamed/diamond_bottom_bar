@@ -14,8 +14,8 @@ Custom bottom navigation bar with diamond icon in the middle you can customize t
 
 
 <p align="center">
-	<img src="https://i.imgur.com/a40bkMu.png" alt="Image" height="500"/>
-	<img src="https://i.imgur.com/uB58pWN.png" alt="Image" height="500"/>
+	<img src="https://i.imgur.com/HeBaWm8.png" alt="Image" height="500"/>
+	<img src="https://i.imgur.com/nW7CuBE.png" alt="Image" height="500"/>
 	
 	
 
@@ -50,7 +50,7 @@ Custom bottom navigation bar with diamond icon in the middle you can customize t
 - When You like to use Bottom navigation with Main Center Item in a diamong shape.
 
 ## Contributers
-<a href="https://github.com/hosain-mohamed"> Hosain Mohamed</a>
+<a href="https://github.com/hosain-mohamed">Hosain Mohamed</a>
 
 ## Inspiration
 - <a href="https://dribbble.com/shots15332641-Medical-Mobile-App">Imran Hossen</a>
