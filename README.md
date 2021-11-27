@@ -14,8 +14,8 @@ Custom bottom navigation bar with diamond icon in the middle you can customize t
 
 
 <p align="center">
-	<img src="https://i.imgur.com/HeBaWm8.png" alt="Image" height="500"/>
-	<img src="https://i.imgur.com/nW7CuBE.png" alt="Image" height="500"/>
+	<img src="https://i.imgur.com/HeBaWm8.png" alt="Image" height="150"/>
+	<img src="https://i.imgur.com/nW7CuBE.png" alt="Image" height="150"/>
 	
 	
 
