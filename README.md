@@ -5,7 +5,7 @@
 
 </p>
 <p align = "center">
-<!-- <a href="https://pub.dev/packages/scaled_list"> Pub.dev</a> -->
+<a href="https://pub.dev/packages/diamond_bottom_bar"> Pub.dev</a>
 </p>
 
 
