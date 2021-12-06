@@ -225,8 +225,14 @@ double getRelativeWidth(double percentage) {
 double getDiamondSize() {
   var width = SizeConfig.screenWidth;
   if (width > 1000) {
-    return 0.04 * SizeConfig.screenWidth;
+    return 0.045 * SizeConfig.screenWidth;
+  } else if (width > 900) {
+    return 0.055 * SizeConfig.screenWidth;
+  } else if (width > 700) {
+    return 0.065 * SizeConfig.screenWidth;
+  } else if (width > 500) {
+    return 0.075 * SizeConfig.screenWidth;
   } else {
-    return 0.08 * SizeConfig.screenHeight;
+    return 0.135 * SizeConfig.screenWidth;
   }
 }
