@@ -66,7 +66,6 @@ class DiamondBottomNavigation extends StatelessWidget {
                                   color: selectedIndex == 0
                                       ? selectedColor
                                       : unselectedColor,
-                                  size: getRelativeWidth(0.07),
                                 ),
                               ),
                             ),
@@ -182,15 +181,14 @@ class DiamondBottomNavigation extends StatelessWidget {
                           ],
                         ),
                       ),
-                      height: getRelativeWidth(0.135),
-                      width: getRelativeWidth(0.135),
+                      height: getDiamondSize(),
+                      width: getDiamondSize(),
                       child: Center(
                           child: Transform.rotate(
                         angle: math.pi / 4,
                         child: Icon(
                           centerIcon,
                           color: Colors.white,
-                          size: getRelativeWidth(0.07),
                         ),
                       )),
                     ),
@@ -222,4 +220,19 @@ double getRelativeHeight(double percentage) {
 
 double getRelativeWidth(double percentage) {
   return percentage * SizeConfig.screenWidth;
+}
+
+double getDiamondSize() {
+  var width = SizeConfig.screenWidth;
+  if (width > 1000) {
+    return 0.045 * SizeConfig.screenWidth;
+  } else if (width > 900) {
+    return 0.055 * SizeConfig.screenWidth;
+  } else if (width > 700) {
+    return 0.065 * SizeConfig.screenWidth;
+  } else if (width > 500) {
+    return 0.075 * SizeConfig.screenWidth;
+  } else {
+    return 0.135 * SizeConfig.screenWidth;
+  }
 }
